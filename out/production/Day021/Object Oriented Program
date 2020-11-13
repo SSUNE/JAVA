@@ -1,0 +1,26 @@
+[01] 객체지향프로그램(OOP : Object Oriented Program)
+    Object : 틀
+    Oriented : 기반
+    Program : 프로그램
+
+            class   vs   Object   vs   Instance
+    차이점 :  설계도           틀            구현
+                    (실레화가 가능한 것)   (실체화한 것)
+    ------------------------------------------------
+
+    1. 객체모델링(설계)
+    클래스형태 : 멤버변수 + 멤버함수
+            1. 멤버변수 : name, kor, eng, math, total, avg
+            2. 멤버하수(메서드) 총점구하기 / 평균구하기 / 출력
+    - 작성하려는 추상적인 기능목록을 정리
+    - 클래스의 형태로 만드는 것출
+
+    2. Interface
+        1) object
+        기능을 구현하지 않은 추상메서드들의 집합
+        public int total (kor, eng, math);
+        public int avg(total);
+        2) 클래스 정의
+
+    3. 객체생성과 사용
+        1) 클래스 객체의 생성 - new를 통한 메모리할당, 생성자를 호출
